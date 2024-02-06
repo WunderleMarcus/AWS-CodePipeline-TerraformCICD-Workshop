@@ -23,7 +23,7 @@ Following successful setup of your S3 Backend, you can then create and deploy yo
 
 ### Prepare your Remote Infrastructure
 1. Clone This Repository
-`git clone https://github.com/jonrau1/AWS-CodePipeline-TerraformCICD-Workshop.git`
+`git clone https://github.com/WunderleMarcus/AWS-CodePipeline-TerraformCICD-Workshop.git`
 2. Navigate to the Remotes Directory
 `cd remotes`
 3. Enter in your Region into your Provider, without an access key / secret key defined Terraform will call EC2 Metadata for temporary credentials, provided you have an EC2 Instance Profile with proper permissions attached to your Instance (https://www.terraform.io/docs/providers/aws/index.html)
